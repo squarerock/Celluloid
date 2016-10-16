@@ -35,6 +35,7 @@ The following **bonus** features are implemented:
 The following **additional** features are implemented:
 
 * [x] Used Retrofit for Networking
+* [x] Implemented Credits API from TheMovieDB to list casts for the movie
 * [x] Used Palette library for extracting color from the Poster/Backdrop images to apply to Toolbar in MovieDetail screen
 * [x] Used Caching in Picasso to avoid multiple downloads
 

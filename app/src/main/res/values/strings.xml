@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Celluloid</string>
+    <string name="check_connection">Error occurred fetching movies. Check connection</string>
+    <string name="trailers">Trailers</string>
+    <string name="description">Overview</string>
+    <string name="cast">Cast</string>
+</resources>

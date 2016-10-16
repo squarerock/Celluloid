@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/trailer_card"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/item_trailer_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_play_arrow_red_700_36dp"/>
+
+            <TextView
+                android:id="@+id/item_trailer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/item_trailer_image"
+                android:text="Trailer: Inside Tim Burton's Miss Peregrine's Home For Peculiar Children"
+                android:layout_toLeftOf="@+id/item_trailer_language"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/item_trailer_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="en"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

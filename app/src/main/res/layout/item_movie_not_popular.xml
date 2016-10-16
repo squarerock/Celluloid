@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/list_item_new"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/movie_poster"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/postermock"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignBottom="@+id/star"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/movie_language"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"/>
+
+            <TextView
+                android:id="@+id/movie_title"
+                android:text="The Magnificent Seven"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/movie_poster"
+                android:layout_toEndOf="@+id/movie_poster"
+                android:layout_marginTop="8dp"
+
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"/>
+
+            <TextView
+                android:id="@+id/movie_language"
+                android:text="en"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_toStartOf="@id/movie_title"
+                android:layout_toLeftOf="@id/movie_title" />
+
+            <TextView
+                android:id="@+id/movie_genres"
+                android:text="Action, Comedy"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movie_title"
+                android:layout_alignLeft="@+id/movie_title"
+                android:layout_alignStart="@+id/movie_title"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/movie_description"
+                android:text="A big screen remake of John Sturges' classic western The Magnificent Seven, itself a remake of Akira Kurosawa's Seven Samurai. Seven gun men in the old west gradually come together to help a poor village against savage thieves."
+                android:textSize="12sp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movie_genres"
+                android:layout_alignLeft="@+id/movie_genres"
+                android:layout_alignStart="@+id/movie_genres" />
+
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/star"
+                android:layout_below="@id/movie_description"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignLeft="@+id/movie_description"
+                android:layout_alignStart="@+id/movie_description" />
+
+            <TextView
+                android:id="@+id/movie_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="4.54/10"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_below="@id/movie_description"
+                android:layout_toRightOf="@+id/star" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

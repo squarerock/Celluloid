@@ -58,6 +58,7 @@ Describe any challenges encountered while building the app.
 - [GSON](https://github.com/google/gson) - A Java serialization/deserialization library that can convert Java Objects into JSON and back.
 - [ButterKnife](https://jakewharton.github.io/butterknife/) - Field and method binding for Android views
 - [Picasso Transformations](https://github.com/wasabeef/picasso-transformations) - An Android transformation library providing a variety of image transformations for Picasso
+- [RetroLambda](https://github.com/orfjackal/retrolambda) - Backport of Java 8's lambda expressions to Java 7, 6 and 5
 - Android support libraries and Android Design library by Google under Apache 2.0
 ## License
 

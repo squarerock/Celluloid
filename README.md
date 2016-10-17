@@ -54,7 +54,7 @@ Describe any challenges encountered while building the app.
 ## Open-source libraries used
 
 - [Picasso](http://square.github.io/picasso/) - Image loading and caching library for Android
-- [Retorfit](https://github.com/square/retrofit) - Networking library
+- [Retrofit](https://github.com/square/retrofit) - Networking library
 - [GSON](https://github.com/google/gson) - A Java serialization/deserialization library that can convert Java Objects into JSON and back.
 - [ButterKnife](https://jakewharton.github.io/butterknife/) - Field and method binding for Android views
 - [Picasso Transformations](https://github.com/wasabeef/picasso-transformations) - An Android transformation library providing a variety of image transformations for Picasso
